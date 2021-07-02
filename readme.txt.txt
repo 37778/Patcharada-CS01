@@ -1,1 +1,0 @@
-Patcharada Tawaditap
