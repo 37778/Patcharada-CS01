@@ -1,18 +1,20 @@
-a=int(input())
-b=int(input())
-if a+b <= 80:
+a=int(input("work score: "))
+b=int(input("midterm :"))
+c=int(input("final :"))
+d=a+b+c
+if d >= 80:
     print("A")
-if a+b <= 80:
+elif d >= 75:
     print("B+")
-if a+b <= 70:
+elif d >= 70:
     print("B")
-if a+b <= 65:
+elif d >= 65:
     print("C+")
-if a+b <= 60:
-    print("C")
-if a+b <= 55:
+elif d >= 60:
+    print("C")  
+elif d >= 55:
     print("D+")
-if a+b <= 50:
+elif d >= 50:
     print("D")
 else:
     print("F")
