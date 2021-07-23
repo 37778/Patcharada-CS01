@@ -1,3 +1,3 @@
 A=int(input())
-B=int(input())
-print(A+B)
+if A<10:
+    print("yes")
