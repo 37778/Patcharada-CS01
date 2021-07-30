@@ -4,5 +4,5 @@ for i in range(Num):
     data=int(input('enter your data:'))
     NumTotal += [data]
 print(NumTotal)
-print(max(NumTotal))
-print(min(NumTotal))
+print("M =",max(NumTotal))
+print("m =",min(NumTotal))
