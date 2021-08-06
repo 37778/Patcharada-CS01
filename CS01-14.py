@@ -1,6 +1,6 @@
-thislist=["5","10","15","20","25","50","20"]
-for i in range(len(thislist)):
+list=[5,10,15,20,25,50,20]
+for i in range(len(list)):
     print (i)
-        if (thislist[i]=="20"):
-            thislist[i]="200"
-print(thislist)
+    if (list[i]==20):
+            list[i]=200
+print(list)
