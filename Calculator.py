@@ -7,7 +7,6 @@ root.title("calculator")
 content = ""
 txt_input = StringVar(value="0") 
 
-#7+10/5*9
 def btn(number):
     global content
     content = content+str(number)
@@ -25,7 +24,7 @@ def clear():
     txt_input.set("")
     display.insert(0,"0")
 
-#แสดงผล 5*4
+#แสดงผล 
 display = Entry(font=('arial',30,'bold'),fg="white",bg="grey",textvariable=txt_input,justify="right")
 display.grid(columnspan=4)
 
